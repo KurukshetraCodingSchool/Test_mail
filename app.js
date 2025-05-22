@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 const nodemailer = require('nodemailer')
 const User = require('./models/testmail')
+const sendMail = require('./utils/sendmail')
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
